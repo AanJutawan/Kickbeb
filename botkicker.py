@@ -11,7 +11,7 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,base64,requests,urllib
 
 cl = LINETCR.LINE()
-cl.login(token='')
+cl.login(token='EoPoA1hvaxg3RgmWVp77.oTEJYL8e2/ngL+3nF4CCfW./NoV4wcE9tZfILmemygGaRpOKr3Mu/LLhb1wxxdosU4=')
 cl.loginResult()
 
 ki = kk = kc = cl 
@@ -154,7 +154,7 @@ def bot(op):
                         Ti = cl.reissueGroupTicket(op.param1)
 
 #----------------------[Masukin Semua SC Yang Ente Pengen Disini]----------------------#
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
 
 #-----------------------------[KICK ALL]-----------------------------#
